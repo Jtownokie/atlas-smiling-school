@@ -65,6 +65,10 @@
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50) !important;
   }
 
+  .text-navy {
+    color: var(--color-navy);
+  }
+
   strong {
     color: var(--color-accent) !important;
     font-weight: var(--font-weight-bold) !important;
@@ -90,7 +94,9 @@
 /* Navbar
 ============================= */
 
-
+  .nav-link:hover {
+    color: var(--color-accent) !important;
+  }
 
 /*** 3. SECTION STYLING ***/
 
@@ -109,12 +115,19 @@
     background-position: center !important;
   }
 
+  .bg-hero-pricing {
+    background-image: url(../images/background_pricing.jpg) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+  }
+
   .hero-banner {
     font-size: var(--font-size-3x-large) !important;
     font-weight: var(--font-weight-bold) !important;
   }
 
-  .pro-header {
+  .pro-header, .pricing-header {
     font-size: var(--font-size-xx-large) !important;
     font-weight: var(--font-weight-light) !important;
   }
@@ -130,6 +143,22 @@
     font-weight: var(--font-weight-regular) !important;
     line-height: 24px !important;
     font-style: italic !important;
+  }
+
+  .pricing-banner {
+    font-size: 60px;
+    font-weight: var(--font-weight-bold);
+  }
+
+  .plan-price {
+    font-size: 44px;
+    font-weight: var(--font-weight-bold);
+  }
+
+  .monthly-price {
+    font-size: var(--font-size-x-small);
+    font-weight: var(--font-weight-regular);
+    opacity: 0.5;
   }
 
 /* Testimonial Section
@@ -206,10 +235,25 @@
     line-height: 26px;
   }
 
-/* Latest Section
+/* FAQ Section
 ============================= */
 
+  .faq-header {
+    font-size: 60px;
+    font-weight: var(--font-weight-light);
+  }
 
+  .question-header {
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .question {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-regular);
+    line-height: 24px;
+    opacity: .50;
+  }
 
 /* Footer
 ============================= */
